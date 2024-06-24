@@ -1,0 +1,54 @@
+.encabezado {
+    background-color: #008080;
+    border-bottom: #1B263B solid 10px;
+    padding-left: 2%;
+    margin: -0.6%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://luxeventos.mx/wp-content/uploads/2020/12/Chic-Foto-Cinema-28-e.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+  }
+  .cuadro {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 2%;
+    margin-top: 4%;
+    background-color: darkgray;
+    border-style: solid;
+    border-color: dimgray;
+    border-radius: 20px;
+    h1 {
+      text-align: center;
+      color: black;
+      border-bottom-style: solid;
+      border-color: dimgray;
+    }
+    input {
+      border-radius: 5px;
+      border-style: solid;
+      border-color: black;
+    }
+  }
+  .correo {
+    padding: 5px;
+    border-bottom-style: solid;
+    border-color: dimgray;
+  }
+  .contraseña {
+    padding: 5px;
+    border-bottom-style: solid;
+    border-color: dimgray;
+  }
+  .submit {
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin-top: 5%; 
+  }
